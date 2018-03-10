@@ -1,0 +1,9 @@
+build:
+  main: ./cmd/ansikube/main.go
+  goarch:
+    - amd64
+brew:
+  github:
+    owner: learnsecurely
+    name: homebrew-tap
+  folder: Formula
